@@ -19,7 +19,7 @@ sudo apt-get install -y unzip zip tar lzip 7zip lf trash-cli eza
 sudo apt-get install -y htop stress-ng xwallpaper xclip
 sudo apt-get install -y fzf fd-find ripgrep jq
 sudo apt-get install -y yt-dlp mpv nsxiv imagemagick ffmpeg
-sudo apt-get install -y zathura zathura-poppler eyed3
+sudo apt-get install -y zathura zathura-poppler
 
 # Fonts and icons
 sudo apt-get install -y fonts-recommended fonts-noto
@@ -29,7 +29,7 @@ sudo apt-get install -y fonts-crosextra-carlito fonts-crosextra-caladea
 sudo apt-get install -y papirus-icon-theme
 
 # Software
-sudo apt-get install -y keepassxc gimp audacious extrepo
+sudo apt-get install -y keepassxc gimp audacious easytag extrepo
 sudo extrepo enable librewolf
 sudo apt update && sudo apt install librewolf -y
 
