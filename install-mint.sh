@@ -29,15 +29,7 @@ sudo apt-get install -y fonts-crosextra-carlito fonts-crosextra-caladea
 sudo apt-get install -y papirus-icon-theme
 
 # Software
-sudo apt-get install -y keepassxc gimp audacious easytag extrepo
-sudo extrepo enable librewolf
-sudo apt update && sudo apt install librewolf -y
-
-### MacOS theme
-cd $HOME/Downloads
-git clone https://github.com/vinceliuice/WhiteSur-gtk-theme.git --depth=1
-mkdir -p "$HOME/.local/share/themes"
-#./install.sh --dest $HOME/.local/share/themes --opacity solid --color dark --theme purple
+sudo apt-get install -y keepassxc gimp audacious easytag
 
 ### Building neovim
 git clone https://github.com/neovim/neovim "$HOME/Downloads/neovim"
@@ -45,14 +37,13 @@ git clone https://github.com/neovim/neovim "$HOME/Downloads/neovim"
 #make CMAKE_BUILD_TYPE=Release
 #sudo make install
 
+# Mullvad browser
+wget --trust-server-names https://mullvad.net/en/download/browser/linux-x86_64/latest -P ~/Downloads
+
 # Install fonts
 mkdir -p "$HOME/.local/share/fonts"
 cd "$HOME/.local/share/fonts"
-git clone https://github.com/sahibjotsaggu/San-Francisco-Pro-Fonts.git
 curl -L -o JetBrainsMono.zip https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/JetBrainsMono.zip
-
-# Starship prompt
-#curl -sS https://starship.rs/install.sh | sh
 
 # Reboot
 sudo reboot
