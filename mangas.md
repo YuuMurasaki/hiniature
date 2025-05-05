@@ -8,8 +8,6 @@
 + Helck manga
 + Iken Senki Völundio
 + Firepunch
-+ Kouga san no kamiguse
-+ Namae no Nai Kaibutsu
 + Diner
 + Slave game
 + Jirai Nandesuka? Chihara-san
@@ -69,7 +67,6 @@
 + Battle in 5 Seconds After Meeting
 + Tayutau Kemuri wa Tsukamenai
 + Hope You're Happy, Lemon
-+ Monster Stein
 + Isekai Ojisan
 + The Elusive Samurai
 + Meika-san wa Oshikorosenai
@@ -105,9 +102,16 @@
 + Tsuiraku Jk To Haijin Kyoushi
 + Domestic na Kanojo
 + Sayonara, Watashitachi ni Yasashikunakatta, Subete no Hitobito
++ Ajin: Demi-Human
++ Franken Fran
++ Ore no Genjitsu wa Ren'ai Game?? ~Ka to Omottara Inochigake no Game datta~
++ Suicide Notes Laid on the Table
 
 # Honorable mention
 + When Will the Same Snow Fall？
++ Monster Stein
++ Kouga-san no Kamiguse
++ Namae no Nai Kaibutsu
 + BIBLIOMANIA
 + The illidan girl
 + Soloist in a Cage
@@ -116,3 +120,5 @@
 
 # Hentai
 + Hakoniwa no Hoshizora
++ Maid Kyouiku. -Botsuraku Kizoku Rurikawa Tsubaki-
++ Ikusa Otome to Ikusa Goto
