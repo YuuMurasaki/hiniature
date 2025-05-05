@@ -1,6 +1,7 @@
 # ANDROID
 + AIMP
-+ Bromite
++ Cromite
++ F-droid
 + QooApp
 
 # PC
