@@ -12,7 +12,7 @@ sudo apt-get install -y nodejs npm default-jre
 sudo apt-get install -y ninja-build gettext cmake ccache git
 
 # Cli tools
-sudo apt-get install -y alacritty tree-sitter-cli
+sudo apt-get install -y alacritty tmux tree-sitter-cli
 sudo apt-get install -y unzip zip tar lzip 7zip lf trash-cli eza
 sudo apt-get install -y htop stress-ng xclip
 sudo apt-get install -y fzf fd-find ripgrep jq

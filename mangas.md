@@ -5,6 +5,7 @@
 + Fuufu Ijou, Koibito Miman.
 + Love and lies
 + TenPuru
++ Amagami-San Chi No Enmusubi!
 + Helck manga
 + Iken Senki Völundio
 + Firepunch
@@ -18,7 +19,6 @@
 + Kimi ga Bokura wo Akuma to Yonda Koro
 + Jaa, Kimi no Kawari ni Korosou ka?
 + Mijuku Na Futari De Gozaimasu Ga
-+ Amagami-San Chi No Enmusubi!
 + Damedol to Sekai ni Hitori Dake no Fan
 + Mato Seihei no Slave
 + Akame Ga Kiru
@@ -106,8 +106,20 @@
 + Franken Fran
 + Ore no Genjitsu wa Ren'ai Game?? ~Ka to Omottara Inochigake no Game datta~
 + Suicide Notes Laid on the Table
++ Sewayaki Kitsune no Senko-san
++ Asura's Verdict
++ Koi to Utatane
++ Doukyonin ga Konoyo no Mon janai Rensai-ban
++ Onii-Chan Wa Oshimai!
++ Musume no Tomodachi
++ Namaiki na Gal Ane wo Wakaraseru Hanashi
++ “Okaeri, Papa”
++ A Mother's Love, a Daughter's Prison
++ 7-Nin no Nemuri Hime
++ Koi wa Ameagari no You ni
 
-# Honorable mention
+# Honorable mention (short mangas or oneshot)
++ Hell dogs
 + When Will the Same Snow Fall？
 + Monster Stein
 + Kouga-san no Kamiguse
@@ -117,8 +129,11 @@
 + Soloist in a Cage
 + Natsume Kyouko no Rinne Natsu Kiroku
 + Natsu No Owari Ni Kimi Ga Shineba Kampekidattakara
++ Futaridake no non-fiction
++ Blue Archive - The Great Gehennian Floof War
 
 # Hentai
 + Hakoniwa no Hoshizora
 + Maid Kyouiku. -Botsuraku Kizoku Rurikawa Tsubaki-
++ ELF Education. -Boukoku no Mist-
 + Ikusa Otome to Ikusa Goto

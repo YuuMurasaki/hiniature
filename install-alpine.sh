@@ -36,21 +36,21 @@ apk add lua5.1 luarocks luajit
 #apk add nodejs npm tree-sitter-cli
 
 # Wifi
-#apk add iwd
 #apk add networkmanager networkmanager-tui
 
 # Sound
 apk add pipewire wireplumber pipewire-pulse pipewire-jack
 
 # Cli tools
-apk add unclutter-xfixes
-apk add fzf ripgrep fd
-apk add eza lf trash-cli htop stow
-apk add tar zip unzip 7zip lzip
+apk add alacritty
 apk add yash yash-completion
-apk add neovim mpv nsxiv maim cmus
-#apk add imagemagick ffmpeg
-#apk add zathura zathura-pdf-poppler
+apk add unclutter-xfixes stow htop
+apk add fzf ripgrep fd
+apk add eza lf trash-cli rsync
+apk add tar zip unzip 7zip lzip
+apk add neovim mpv nsxiv maim ncmpcpp
+apk add imagemagick ffmpeg
+apk add zathura zathura-pdf-poppler
 
 # Softwares
 apk add freetube librewolf
