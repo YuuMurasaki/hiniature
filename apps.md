@@ -7,3 +7,4 @@
 
 # PC
 + Freetube
++ spotDL

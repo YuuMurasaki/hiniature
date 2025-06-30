@@ -10,7 +10,7 @@
 + Iken Senki Völundio
 + Firepunch
 + Diner
-+ Slave game
++ Slave Game
 + Jirai Nandesuka? Chihara-san
 + Mikadono Sanshimai wa Angai, Choroi
 + Dungeon Ni Hisomu Yandere Na Kanojo Ni Ore Wa Nando Mo Korosareru
@@ -117,6 +117,19 @@
 + A Mother's Love, a Daughter's Prison
 + 7-Nin no Nemuri Hime
 + Koi wa Ameagari no You ni
++ Danjohi 1:5 no Sekai demo Futsu ni Ikirareru to Omotta? ~ Geki Juu Kanjou na Kanojotachi ga Mujikaku Danshi ni Honrousaretara
++ Rooster Fighter
++ Kitanai Kimi ga Ichiban Kawaii
++ The Summer You Were There
++ Fool Night
++ The Color of the End: Mission in the Apocalypse
++ Happy Massacre Ending
++ Aku no Higan - Beyond Evil
++ Area D
++ Nemuri no Fuchi
++ Savage Hero
++ Imada Nakunatte Inai Hito
++ Bokutachi wa Hanshoku wo Yameta
 
 # Honorable mention (short mangas or oneshot)
 + Hell dogs
@@ -131,6 +144,7 @@
 + Natsu No Owari Ni Kimi Ga Shineba Kampekidattakara
 + Futaridake no non-fiction
 + Blue Archive - The Great Gehennian Floof War
++ Musubime Nemuri wa Shite Kurenaku mo nai
 
 # Hentai
 + Hakoniwa no Hoshizora
