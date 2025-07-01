@@ -43,7 +43,7 @@ apk add pipewire wireplumber pipewire-pulse pipewire-jack
 
 # Cli tools
 apk add alacritty bash
-apk add unclutter-xfixes stow htop ueberzug
+apk add stow htop ueberzug
 apk add fzf ripgrep fd
 apk add eza lf trash-cli rsync
 apk add tar zip unzip 7zip lzip
