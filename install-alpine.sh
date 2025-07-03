@@ -42,8 +42,7 @@ apk add lua5.1 luarocks luajit
 apk add pipewire wireplumber pipewire-pulse pipewire-jack
 
 # Cli tools
-apk add alacritty bash
-apk add stow htop ueberzug
+apk add bash stow htop ueberzug
 apk add fzf ripgrep fd
 apk add eza lf trash-cli rsync
 apk add tar zip unzip 7zip lzip
@@ -53,7 +52,7 @@ apk add zathura zathura-pdf-poppler
 
 # Softwares
 apk add freetube librewolf
-apk add keepassxc nemo
+apk add keepassxc dolphin
 
 # Appearance
 apk add adwaita-icon-theme
