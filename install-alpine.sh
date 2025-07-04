@@ -13,7 +13,7 @@ apk update
 apk upgrade --available
 
 # Xorg
-setup-xorg-base xinit xrandr xsetroot xcompmgr xset xclip xwallpaper
+setup-xorg-base xinit xrandr xsetroot xcompmgr xset xclip xwallpaper unclutter-xfixes
 
 # Drivers
 apk add mesa mesa-dri-gallium mesa-va-gallium
@@ -54,13 +54,10 @@ apk add zathura zathura-pdf-poppler
 apk add freetube librewolf
 apk add keepassxc dolphin
 
-# Appearance
+# Fonts and Appearance
 apk add adwaita-icon-theme
-
-# Fonts
 apk add freetype-dev fontconfig-dev
-apk add font-iosevka-base
-apk add font-jetbrains-mono-nerd
+apk add font-iosevka-base font-jetbrains-mono-nerd
 #apk add font-freefont font-roboto font-dejavu font-ubuntu
 #apk add font-noto font-noto-extra font-awesome-free
 #apk add font-linux-libertine font-liberation font-inconsolata
