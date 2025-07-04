@@ -1,6 +1,7 @@
+https://ericmurphy.xyz/
 https://lukesmith.xyz/
 https://brycevandegrift.xyz/
-https://ericmurphy.xyz/
+https://khiem.io.vn/
 https://cat-v.org/
 https://github.com/mayfrost/guides/blob/master/ALTERNATIVES.md
 https://directory.fsf.org/wiki/Main_Page
@@ -24,3 +25,4 @@ https://neal.fun
 https://www.rophim.me/phimhay
 https://gbrl.ai
 https://seostudio.tools
+https://duck.ai

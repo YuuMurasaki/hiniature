@@ -6,6 +6,8 @@
 # Change the version --> 'edge'
 # NOTE: For better security you should probably change the url's from http to https
 # Edit: /etc/doas.conf, /etc/passwd
+# Setup RUNTIME: add this to /etc/pam.d/login
+# -session	optional	pam_rundir.so
 ###################################################################################
 
 # Update system and repositories
