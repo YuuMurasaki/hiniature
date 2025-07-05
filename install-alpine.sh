@@ -44,17 +44,16 @@ apk add lua5.1 luarocks luajit
 apk add pipewire wireplumber pipewire-pulse pipewire-jack
 
 # Cli tools
-apk add bash stow htop ueberzug
+apk add bash stow htop
 apk add fzf ripgrep fd
 apk add eza lf trash-cli rsync
 apk add tar zip unzip 7zip lzip
-apk add neovim mpv nsxiv maim rmpc mpd
+apk add neovim mpv nsxiv maim
 apk add imagemagick ffmpeg
 apk add zathura zathura-pdf-poppler
 
 # Softwares
-apk add freetube librewolf
-apk add keepassxc dolphin
+apk add librewolf keepassxc
 
 # Fonts and Appearance
 apk add adwaita-icon-theme
@@ -69,5 +68,5 @@ adduser yuu audio
 adduser yuu input
 adduser yuu plugdev
 
-# REBOOT
+# Reboot
 reboot
