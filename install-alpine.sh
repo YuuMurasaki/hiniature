@@ -48,7 +48,7 @@ apk add bash stow htop ueberzug
 apk add fzf ripgrep fd
 apk add eza lf trash-cli rsync
 apk add tar zip unzip 7zip lzip
-apk add neovim mpv nsxiv maim rmpc
+apk add neovim mpv nsxiv maim rmpc mpd
 apk add imagemagick ffmpeg
 apk add zathura zathura-pdf-poppler
 
@@ -59,7 +59,7 @@ apk add keepassxc dolphin
 # Fonts and Appearance
 apk add adwaita-icon-theme
 apk add freetype-dev fontconfig-dev
-apk add font-iosevka-base font-jetbrains-mono-nerd
+apk add font-iosevka-base font-jetbrains-mono-nerd font-hack-nerd
 #apk add font-freefont font-roboto font-dejavu font-ubuntu
 #apk add font-noto font-noto-extra font-awesome-free
 #apk add font-linux-libertine font-liberation font-inconsolata
