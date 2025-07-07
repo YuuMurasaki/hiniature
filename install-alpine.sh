@@ -24,8 +24,7 @@ apk add mesa mesa-dri-gallium mesa-va-gallium
 #apk add xf86-video-vboxvideo # For Virtualbox
 
 # Libraries
-apk add libx11-dev libxft-dev libxinerama-dev libxrandr-dev
-apk add ncurses linux-headers
+apk add libx11-dev libxft-dev libxinerama-dev libxrandr-dev ncurses
 
 # D-bus
 apk add dbus dbus-x11 pam-rundir
