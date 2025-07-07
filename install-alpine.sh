@@ -32,8 +32,9 @@ rc-update add dbus default
 setup-devd udev
 
 # Programming tools
-apk add alpine-sdk curl
-apk add lua5.1 luarocks luajit
+apk add alpine-sdk git make patch wget curl
+apk add gcc g++ tcc
+apk add python3 lua5.1 luarocks luajit
 #apk add nodejs npm tree-sitter-cli
 
 # Wifi
