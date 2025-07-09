@@ -1,14 +1,14 @@
 #!/bin/sh
 
-###################################################################################
-# To make Alpine Linux a rolling release distro,
-# edit the /etc/apk/repositories
+########################################################################
+# Make Alpine Linux rolling release
+# edit /etc/apk/repositories
 # Change the version --> 'edge'
-# NOTE: For better security you should probably change the url's from http to https
+# NOTE: For better security, change the url's from http to https
 # Edit: /etc/doas.conf, /etc/passwd
 # Setup RUNTIME: add this to /etc/pam.d/login at the end of 'session'
 # -session	optional	pam_rundir.so
-###################################################################################
+########################################################################
 
 # Update system and repositories
 apk update
