@@ -8,20 +8,19 @@
 ###################################################################################
 
 xbps-install -Syu
-xbps-install xorg xinit xrandr xsetroot xcompmgr xset xclip xwallpaper unclutter-xfixes
-xbps-install base-devel libX11-devel libXft-devel libXinerama-devel libXrandr-devel ncurses
-xbps-install freetype-devel fontconfig-devel
-xbps-install dbus dbus-x11 pam_rundir
-xbps-install NetworkManager pipewire pipewire-devel alsa-pipewire wireplumber
-xbps-install git make curl wget patch
-xbps-install gcc tcc python lua luarocks LuaJIT 
-xbps-install opendoas stow htop tree-sitter
-xbps-install fzf ripgrep fd
-xbps-install eza lf trash-cli rsync
-xbps-install tar zip unzip 7zip lzip
-xbps-install neovim mpv nsxiv maim
-xbps-install imagemagick ffmpeg
-xbps-install zathura zathura-pdf-poppler
-xbps-install firefox keepassxc
-xbps-install font-iosevka font-hack-ttf freefont-ttf fonts-roboto-ttf dejavu-fonts-ttf
-xbps-install ttf-ubuntu-font-family noto-fonts-ttf noto-fonts-ttf-extra
+xbps-install -y xorg xinit xrandr xsetroot xset xclip xwallpaper unclutter-xfixes
+xbps-install -y base-devel libX11-devel libXft-devel libXinerama-devel libXrandr-devel ncurses
+xbps-install -y freetype-devel fontconfig-devel
+xbps-install -y dbus dbus-x11 pam_rundir
+xbps-install -y NetworkManager pipewire pipewire-devel alsa-pipewire wireplumber rtkit
+xbps-install -y git make curl wget patch
+xbps-install -y gcc tcc python lua luarocks LuaJIT 
+xbps-install -y opendoas stow htop tree-sitter
+xbps-install -y fzf ripgrep fd eza lf trash-cli rsync
+xbps-install -y tar zip unzip 7zip lzip
+xbps-install -y neovim mpv nsxiv maim
+xbps-install -y imagemagick ffmpeg zathura zathura-pdf-poppler
+xbps-install -y firefox keepassxc
+xbps-install -y font-iosevka freefont-ttf fonts-roboto-ttf dejavu-fonts-ttf ttf-ubuntu-font-family
+xbps-install -y noto-fonts-ttf noto-fonts-ttf-extra noto-fonts-emoji font-awesome6
+xbps-install -y liberation-fonts-ttf font-inconsolata-otf xorg-fonts font-libertine-ttf
