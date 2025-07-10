@@ -14,18 +14,19 @@
 # ln -s /usr/share/alsa/alsa.conf.d/50-pipewire.conf /etc/alsa/conf.d
 # ln -s /usr/share/alsa/alsa.conf.d/99-pipewire-default.conf /etc/alsa/conf.d
 ###################################################################################
-# Setup doas
-# touch /etc/doas.conf
+# add user to 'network' groups
+# Disable 'dhcpcd', 'wpa_supplicant' before enable 'NetworkManager'
 ###################################################################################
 
 xbps-install -Syu
 xbps-install -y xorg xinit xrandr xsetroot xcompmgr xdotool xset xclip xwallpaper xwininfo xprop
+xbps-install -y vulkan-loader mesa-vulkan-intel unclutter-xfixes
 xbps-install -y base-devel libX11-devel libXft-devel libXinerama-devel libXrandr-devel ncurses
-xbps-install -y freetype-devel fontconfig-devel xdg-utils xdg-user-dirs polkit socat
+xbps-install -y freetype-devel fontconfig-devel xdg-utils xdg-user-dirs polkit
 xbps-install -y dbus dbus-x11 pam_rundir NetworkManager moreutils
 xbps-install -y pipewire pipewire-devel rtkit alsa-pipewire wireplumber helvum
-xbps-install -y git make curl wget patch unclutter-xfixes
-xbps-install -y gcc tcc python lua luarocks LuaJIT 
+xbps-install -y git make curl wget patch gcc tcc
+xbps-install -y python3-devel python3-virtualenv python3-pip lua-devel luarocks LuaJIT 
 xbps-install -y opendoas stow htop tree-sitter
 xbps-install -y fzf ripgrep fd eza lf trash-cli rsync
 xbps-install -y tar zip unzip 7zip lzip
@@ -35,3 +36,16 @@ xbps-install -y firefox keepassxc
 xbps-install -y font-iosevka freefont-ttf fonts-roboto-ttf dejavu-fonts-ttf ttf-ubuntu-font-family
 xbps-install -y liberation-fonts-ttf font-inconsolata-otf xorg-fonts font-libertine-ttf font-awesome6
 xbps-install -y noto-fonts-emoji noto-fonts-cjk noto-fonts-cjk-variable noto-fonts-ttf noto-fonts-ttf-extra noto-fonts-ttf-variable
+
+# Setup doas
+touch /etc/doas.conf
+echo "
+permit persist :wheel
+permit nopass :wheel cmd poweroff
+permit nopass :wheel cmd reboot
+permit nopass :wheel cmd mount
+permit nopass :wheel cmd umount
+" > /etc/doas.conf
+chmod 400 /etc/doas.conf
+
+reboot
