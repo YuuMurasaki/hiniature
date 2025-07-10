@@ -30,7 +30,7 @@ xbps-install -y opendoas stow htop tree-sitter
 xbps-install -y fzf ripgrep fd eza lf trash-cli rsync
 xbps-install -y tar zip unzip 7zip lzip
 xbps-install -y neovim mpv nsxiv maim
-xbps-install -y imagemagick ffmpeg zathura zathura-pdf-poppler
+xbps-install -y ImageMagick ffmpeg zathura zathura-pdf-poppler
 xbps-install -y firefox keepassxc
 xbps-install -y font-iosevka freefont-ttf fonts-roboto-ttf dejavu-fonts-ttf ttf-ubuntu-font-family
 xbps-install -y noto-fonts-ttf noto-fonts-ttf-extra noto-fonts-emoji font-awesome6
