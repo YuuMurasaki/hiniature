@@ -19,7 +19,7 @@
 ###################################################################################
 
 xbps-install -Syu
-xbps-install -y xorg xinit xrandr xsetroot xset xclip xwallpaper unclutter-xfixes
+xbps-install -y xorg xinit xrandr xsetroot xdotool xset xclip xwallpaper unclutter-xfixes
 xbps-install -y base-devel libX11-devel libXft-devel libXinerama-devel libXrandr-devel ncurses
 xbps-install -y freetype-devel fontconfig-devel xdg-utils xdg-user-dirs
 xbps-install -y dbus dbus-x11 pam_rundir NetworkManager
@@ -33,5 +33,5 @@ xbps-install -y neovim mpv nsxiv maim
 xbps-install -y ImageMagick ffmpeg zathura zathura-pdf-poppler
 xbps-install -y firefox keepassxc
 xbps-install -y font-iosevka freefont-ttf fonts-roboto-ttf dejavu-fonts-ttf ttf-ubuntu-font-family
-xbps-install -y noto-fonts-ttf noto-fonts-ttf-extra noto-fonts-emoji font-awesome6
-xbps-install -y liberation-fonts-ttf font-inconsolata-otf xorg-fonts font-libertine-ttf
+xbps-install -y liberation-fonts-ttf font-inconsolata-otf xorg-fonts font-libertine-ttf font-awesome6
+xbps-install -y noto-fonts-emoji noto-fonts-cjk noto-fonts-cjk-variable noto-fonts-ttf noto-fonts-ttf-extra noto-fonts-ttf-variable
