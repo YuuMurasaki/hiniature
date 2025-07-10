@@ -19,12 +19,12 @@
 ###################################################################################
 
 xbps-install -Syu
-xbps-install -y xorg xinit xrandr xsetroot xdotool xset xclip xwallpaper unclutter-xfixes
+xbps-install -y xorg xinit xrandr xsetroot xcompmgr xdotool xset xclip xwallpaper xwininfo xprop
 xbps-install -y base-devel libX11-devel libXft-devel libXinerama-devel libXrandr-devel ncurses
-xbps-install -y freetype-devel fontconfig-devel xdg-utils xdg-user-dirs
-xbps-install -y dbus dbus-x11 pam_rundir NetworkManager
+xbps-install -y freetype-devel fontconfig-devel xdg-utils xdg-user-dirs polkit socat
+xbps-install -y dbus dbus-x11 pam_rundir NetworkManager moreutils
 xbps-install -y pipewire pipewire-devel rtkit alsa-pipewire wireplumber helvum
-xbps-install -y git make curl wget patch
+xbps-install -y git make curl wget patch unclutter-xfixes
 xbps-install -y gcc tcc python lua luarocks LuaJIT 
 xbps-install -y opendoas stow htop tree-sitter
 xbps-install -y fzf ripgrep fd eza lf trash-cli rsync
