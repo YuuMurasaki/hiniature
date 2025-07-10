@@ -1,19 +1,20 @@
 #!/bin/sh
 
-# Create a temporary directory for fonts and navigate into it
+# Create a temporary directory for fonts
 FONTDIR=$(mktemp -d /tmp/tmp-fonts.XXXXXX)  # Use mktemp for a unique directory
-cd "$FONTDIR" || exit 1  # Exit if cd fails
 
-# Download the font files
-curl -OL https://github.com/ryanoasis/nerd-fonts/releases/latest/download/JetBrainsMono.tar.xz
-curl -OL https://github.com/ryanoasis/nerd-fonts/releases/latest/download/Hack.tar.xz
-curl -OL https://github.com/ryanoasis/nerd-fonts/releases/latest/download/FiraCode.tar.xz
+# Download the font files into the temporary directory
+FONTS="JetBrainsMono Hack FiraCode"
+
+for font in $FONTS; do
+    curl -L -o "$FONTDIR/$font.tar.xz" "https://github.com/ryanoasis/nerd-fonts/releases/latest/download/$font.tar.xz"
+done
 
 # Extract the downloaded tar files
-tar -xf -- *.tar.xz
+tar -xf "$FONTDIR"/*.tar.xz -C "$FONTDIR"
 
-# Move the .ttf files to the system fonts directory
-mv -- *.ttf /usr/share/fonts/TTF
+# Move the .ttf files to the system fonts directory, forcing replacement if files exist
+mv -f -- "$FONTDIR"/*.ttf /usr/share/fonts/TTF
 
 # Update the font cache
 fc-cache -f -v

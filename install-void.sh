@@ -22,8 +22,8 @@ xbps-install -Syu
 xbps-install -y xorg xinit xrandr xsetroot xset xclip xwallpaper unclutter-xfixes
 xbps-install -y base-devel libX11-devel libXft-devel libXinerama-devel libXrandr-devel ncurses
 xbps-install -y freetype-devel fontconfig-devel xdg-utils xdg-user-dirs
-xbps-install -y dbus dbus-x11 pam_rundir
-xbps-install -y NetworkManager pipewire pipewire-devel rtkit alsa-pipewire wireplumber
+xbps-install -y dbus dbus-x11 pam_rundir NetworkManager
+xbps-install -y pipewire pipewire-devel rtkit alsa-pipewire wireplumber helvum
 xbps-install -y git make curl wget patch
 xbps-install -y gcc tcc python lua luarocks LuaJIT 
 xbps-install -y opendoas stow htop tree-sitter
